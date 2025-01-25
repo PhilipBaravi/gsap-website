@@ -15,7 +15,7 @@ const Hero: FC = () => {
   const [isLoading, setIsLoading] = useState(false); // There was an issue with loading state, that's why false for now
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 3;
+  const totalVideos = 4;
   const nextVideoRef = useRef<HTMLVideoElement | null>(null);
   const videoDivRef = useRef<HTMLDivElement | null>(null); // Reference for the div
 
