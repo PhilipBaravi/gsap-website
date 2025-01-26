@@ -60,7 +60,12 @@ body {
   }
 
   .mask-clip-path {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    position: relative; /* Necessary for layout */
+    overflow: hidden; /* Ensures the image stays within bounds */
+    width: 100%; /* Full width of parent container */
+    height: auto; /* Height adjusts to content */
+    max-width: 100vw; /* Prevents overflow */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Initial shape */
   }
 
   .special-font b {
