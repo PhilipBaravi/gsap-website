@@ -4,7 +4,7 @@ import Navbar from "@/components/home/navbar";
 import Features from "@/components/home/features";
 import Story from "@/components/home/story";
 import Contact from "../components/home/contact";
-import Footer from "@/components/home/footer";
+// import Footer from "@/components/home/footer";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Features />
       <Story />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
