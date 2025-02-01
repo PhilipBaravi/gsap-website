@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Image from "next/image";
 
-import AnimatedTitle from "./animate-title";
+import AnimatedTitle from "./ui/animated-title";
 
 gsap.registerPlugin(ScrollTrigger);
 

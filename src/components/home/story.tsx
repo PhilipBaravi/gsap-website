@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 import Image from "next/image";
 import Button from "./ui/Button";
-import AnimatedTitle from "./animate-title";
+import AnimatedTitle from "./ui/animated-title";
 
 const FloatingImage = () => {
   const frameRef = useRef<HTMLImageElement | null>(null);
